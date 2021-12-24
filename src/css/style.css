@@ -1,0 +1,22 @@
+.content {
+    width: 1280px;
+    margin: 0 auto;
+    color: #0032A0;
+    font-family: 'Nivea Regular';
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Nivea Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Nivea-Regular.woff') format('woff');
+}
+    
+
+@font-face {
+    font-family: 'Nivea Bold';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/Nivea-Bold.woff') format('woff');
+}

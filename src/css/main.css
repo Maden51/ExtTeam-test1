@@ -1,0 +1,420 @@
+.main-content__menu {
+    border: solid 1px #EFF5FA; 
+    border-radius: 5px;
+    padding: 0 118px;
+}
+
+.main__menu-item {
+    text-decoration: none;
+    color: #0032A0;
+    display: inline-block;
+    font-size: 14px;
+    margin: 9px 35px 10px;
+    position: relative;
+}
+
+.promo {
+    background-image: url('../img/Nivea_promo.png');
+    height: 650px;
+    margin-top: 1px;
+    position: relative;
+    z-index: 0;
+}
+
+.promo::after {
+    content: '';
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.1;
+    z-index: 5;
+}
+
+.promo-item1 {
+    position: absolute;
+    z-index: 3;
+    left: 19%;
+    top: 17%;
+}
+
+.item1-background {
+    position: absolute;
+    z-index: 2;
+    left: 18.5%;
+    top: 15%;
+    background-image: url('../img/Ellipse\ 2.svg');
+    opacity: 0.75;
+}
+
+.promo-item2 {
+    position: absolute;
+    z-index: 3;
+    top: 47%;
+    left: 19%;
+}
+
+.item2-background {
+    position: absolute;
+    z-index: 2;
+    background-image: url('../img/Ellipse\ 2.svg');
+    opacity: 0.75;
+    top: 50%;
+    left: 17%;
+}
+
+.promo-textBox {
+    position: absolute;
+    background-color: #ffffff;
+    width: 500px;
+    height: 275px;
+    text-align: center;
+    right: 4%;
+    top: 29%
+}
+
+.promo-title {
+    font-family: 'Nivea Bold';
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58px;
+    text-transform: uppercase;
+    margin: 32px 1px 10px;
+}
+
+.promo-text {
+    font-size: 18px;
+    margin-bottom: 37px;
+}
+
+.main-content__product {
+    padding: 0 205px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 800;
+    font-family: 'Nivea Bold';
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 38px;
+    width: 593px;
+    margin: 73px auto 88px;
+}
+
+.product__description-box {
+    display: flex;
+    position: relative;
+}
+
+.image-withBackground {
+    position: relative;
+    z-index: 1;
+}
+
+.cream__image-background {
+    position: absolute;
+    z-index: 0;
+    right: -3%;
+    top: -13%;
+}
+
+.gel__image-background {
+    position: absolute;
+    z-index: 0;
+    top: 13%;
+    left: -16%;
+}
+
+.cream__description_text {
+    font-size: 18px;
+    margin-right: 106px;
+    line-height: 26px;
+    align-self: center;
+}
+
+.gel__description_text {
+    margin-left: 199px;
+    align-self: center;
+    margin-right: 207px;
+    line-height: 26px;
+}
+
+.product__undertitle {
+    margin-top: 38px;
+}
+
+.undertitle {
+    font-weight: 800;
+    font-family: 'Nivea Bold';
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 29px;
+}
+
+.main__text {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    margin-bottom: 23px;
+}
+
+.product__image {
+    display: block;
+    margin: 0 auto;
+}
+
+.product__list {
+    background-color: #F7F8FA;
+}
+
+.list_title {
+    padding-top: 40px;
+    margin-bottom: 22px;
+    width: 100%;
+}
+
+.list {
+    padding: 0 330px 44px;
+    font-size: 18px;
+    line-height: 24px;
+    list-style-type: none;
+}
+
+.list__item:nth-child(n+2) {
+    margin-top: 15px;
+}
+
+.list__item {
+    position: relative;
+}
+
+.list__item::before {
+    position: absolute;
+    content: '';
+    background-image: url('../img/Check.svg');
+    width: 20px;
+    height: 20px;
+    left: -5%;
+}
+
+.btn {
+    padding: 17px 40px;
+    background-color: #0032A0;
+    border-radius: 100px;
+    margin: 0 auto;
+    display: block;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.product__buyButton {
+    margin-bottom: 67px;
+}
+
+.title-gel {
+    margin: 50px auto 20px;
+}
+
+.result__title {
+    margin: 14px auto 50px;
+}
+
+.bg-dark {
+    background-color: #F7F8FA;
+}
+
+.result__card {
+    display: flex;
+    padding: 50px 205px;
+}
+
+.card__description {
+    margin-right: 62px;
+    align-self: center;
+}
+
+.card__title {
+    text-align: start;
+    color: #06369D;
+}
+
+.card__text {
+    color: #06369D;
+    line-height: 26px;
+    font-size: 18px;
+}
+
+.card__photo {
+    background-color: #0032A0;
+    height: 505px;
+}
+
+.card__description-viceVersa {
+    margin-left: 60px;
+    align-self: center;
+}
+
+.products__container {
+    padding: 60px 136px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products__card {
+    background-color: #ffffff;
+    padding: 52px 47px 42px 61px;
+    text-align: center;
+    width: 468px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.products__card:nth-child(2n + 1) {
+    margin-right: 72px;
+}
+
+.products__card:nth-child(n + 3) {
+    margin-top: 50px;
+}
+
+.products__card_undertitle {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px 0 0;
+    width: 343px;
+    color: #06369D;
+}
+
+.card__boxes {
+    display: flex;
+    margin-top: 34px;
+}
+
+.card__box.ozon {
+    margin-right: 43px;
+}
+
+.card__box.wildberries {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card__button {
+    padding: 13px 35px;
+    background-color: transparent;
+    color: #06369D;
+    border-radius: 50px;
+    font-size: 18px;
+}
+
+.card__button_ozon {
+    margin-top: 26px;
+}
+
+.card__button_wildberries {
+    margin-top: 31px;
+}
+
+.card-box__logo-wildberries {
+    margin-top: 5px;
+}
+
+.social {
+    width: 793px;
+    margin: 50px auto;
+}
+
+.social__title {
+    margin-bottom: 12px;
+    margin-top: 0;
+}
+
+.social__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    position: relative;
+    padding-inline-start: 0;
+    margin: 0;
+}
+
+.social__item:nth-child(n + 2) {
+    margin-left: 20px;
+}
+
+.social__item-text {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    width: 1px;
+}
+
+.social__link-vk::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/vk.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50px;
+}
+
+.social__link-facebook::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/fb.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50px;
+}
+
+.agreement__box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.agreement__link::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 18px;
+    height: 20px;
+    background-image: url(../img/agreement.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 18px 20px;
+}
+
+.agreement__icon {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    width: 1px;
+}
+
+.agreement__text {
+    font-size: 11px;
+    line-height: 22px;
+    text-align: center;
+}
