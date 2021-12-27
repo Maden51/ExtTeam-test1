@@ -15,6 +15,18 @@
     margin-right: 40px;
 }
 
+.head__logo-icon::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/NIVEA\ x5F\ Logo\ x5F\ 2020\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50px;
+}
+
 .head__menu {
     margin-right: 256px;
 }
@@ -34,20 +46,126 @@
     margin-left: 20px;
 }
 
+.icon-text {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    width: 1px;
+}
+
+.icon-search::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 34px;
+    height: 34px;
+    background-image: url(../img/search.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 34px;
+}
+
+.icon-profile::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 34px;
+    height: 34px;
+    background-image: url(../img/profile.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 34px;
+}
+
 .icon-cookie {
     position: relative;
 }
 
-.icon-cookie::before {
-    content: '';
-    background-image: url('../img/cookiePart.svg');
-    background-size: 7.6px 7.6px;
-    display: block;
-    width: 7.6px;
-    height: 7.6px;
+.cookie-part1::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 7.5px;
+    height: 7.5px;
+    background-image: url(../img/cookiePart.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 7.5px;
     position: absolute;
-    left: 18%;
-    top: -50%;
+    top: 5px;
+    right: 19px;
+}
+
+.cookie-part2::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 6.36px;
+    height: 6.36px;
+    background-image: url(../img/cookiePart.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 6.36px;
+    position: absolute;
+    top: 16px;
+    right: 18px;
+}
+
+.cookie-part3::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 5.5px;
+    height: 5.5px;
+    background-image: url(../img/cookiePart.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 5.5px;
+    position: absolute;
+    top: 11px;
+    right: 11px;
+}
+
+.cookie-part4::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 4px;
+    height: 4px;
+    background-image: url(../img/cookiePart.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 4px;
+    position: absolute;
+    top: 19px;
+    right: 12.5px;
+}
+
+.cookie-part5::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 4px;
+    height: 4px;
+    background-image: url(../img/cookiePart.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 4px;
+    position: absolute;
+    top: -1px;
+    right: 3.5px;
+}
+
+.icon-cookie::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 34px;
+    height: 34px;
+    background-image: url(../img/cookie.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 34px;
 }
 
 .header__page-navigation {

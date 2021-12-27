@@ -1,7 +1,11 @@
 .main-content__menu {
     border: solid 1px #EFF5FA; 
     border-radius: 5px;
-    padding: 0 118px;
+    margin: 0 auto;
+    width: 1044px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .main__menu-item {
@@ -11,6 +15,21 @@
     font-size: 14px;
     margin: 9px 35px 10px;
     position: relative;
+    box-sizing: border-box;
+}
+
+.main__menu-item::after {
+    content: '';
+    width: 36px;
+    background-color: #EFF5FA;
+    height: 1px;
+    transform: rotate(90deg);
+    display: block;
+    position: absolute;
+    right: -59px;
+    top: 9px;
+    pointer-events: none;
+    cursor: none;
 }
 
 .promo {
@@ -170,19 +189,24 @@
 
 .product__list {
     background-color: #F7F8FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
 }
 
 .list_title {
-    padding-top: 40px;
     margin-bottom: 22px;
+    margin-top: 40px;
     width: 100%;
 }
 
 .list {
-    padding: 0 330px 44px;
     font-size: 18px;
     line-height: 24px;
     list-style-type: none;
+    padding-inline-start: 0px;
+    margin-block-start: 0px;
 }
 
 .list__item:nth-child(n+2) {
@@ -199,7 +223,7 @@
     background-image: url('../img/Check.svg');
     width: 20px;
     height: 20px;
-    left: -5%;
+    left: -25px;
 }
 
 .btn {
